@@ -80,9 +80,9 @@ const Qualification = () => {
 
                 <div style={{border:"var(--border)"}}>
                 <h3 className="qualification__title">Web and App Dev</h3>
-                <span className="qualification__subtitle">SAIMS</span>
+                <span className="qualification__subtitle">SMIT</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
                 </div>
 
@@ -92,7 +92,7 @@ const Qualification = () => {
                 
                 <div style={{border:"var(--border)"}}>
                 <h3 className="qualification__title">Intermediate</h3>
-                <span className="qualification__subtitle">Govt.Jinnal College</span>
+                <span className="qualification__subtitle">PECHS govt education science college</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2020
                 </div>
@@ -116,7 +116,7 @@ const Qualification = () => {
 
                 <div style={{border:"var(--border)"}}>
                 <h3 className="qualification__title">Matriculation</h3>
-                <span className="qualification__subtitle">IHGS</span>
+                <span className="qualification__subtitle">The New Earth School</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2016 - 2018
                 </div>
@@ -140,10 +140,10 @@ const Qualification = () => {
              <div className="qualification__data">
                
                <div style={{border:"var(--border)"}}>
-               <h3 className="qualification__title">Mern Stack(3 Months)</h3>
-               <span className="qualification__subtitle">Intern at Bitewise Limited</span>
+               <h3 className="qualification__title">Mern Stack(1 Months)</h3>
+               <span className="qualification__subtitle">Intern at CodeSoft</span>
                <div className="qualification__calendar">
-                 <i className="uil uil-calendar-alt"></i> March-2023-Jan-2023
+                 <i className="uil uil-calendar-alt"></i> 1-November-2023 to 30-nov-23
                </div>
                </div>
 
@@ -163,13 +163,13 @@ const Qualification = () => {
                <span className="qualification__line"></span>
              </div>
  
-               <div style={{border:"var(--border)"}}>
+               {/* <div style={{border:"var(--border)"}}>
                <h3 className="qualification__title">MERN</h3>
                <span className="qualification__subtitle">Freelance</span>
                <div className="qualification__calendar">
                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                </div>
-               </div> 
+               </div>  */}
 
               
 
