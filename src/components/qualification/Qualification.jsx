@@ -92,7 +92,7 @@ const Qualification = () => {
                 
                 <div style={{border:"var(--border)"}}>
                 <h3 className="qualification__title">Intermediate</h3>
-                <span className="qualification__subtitle">PECHS govt education science college</span>
+                <span className="qualification__subtitle">PECHS govt Education Science college</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2020
                 </div>
