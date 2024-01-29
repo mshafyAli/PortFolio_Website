@@ -12,12 +12,12 @@ export const projectData = [
   {
     id: 1,
     image: work1,
-    title: "Gym Exercise App",
+    title: "Mern Auth",
     category: "web",
     description:
-      "Create a user-friendly gym exercise app in React, powered by the Rapid API for exercise data and personalized routines, helping users achieve effective fitness goals",
-    tech: ['Tailwand',"ReactJs",'Rest APIs'],
-    link:'https://gym-exercise-app-with-api.netlify.app/'
+      "This is a fullstack Web. It includes authentication features that allow users to sign up, log in, and log out, and provides access to protected routes only for authenticated users.",
+    tech: ['Tailwand',"ReactJs",'Node Js','Express','MongoDb'],
+    link:'https://mern-auth-5pnp.onrender.com/'
   },
   {
     id: 2,
