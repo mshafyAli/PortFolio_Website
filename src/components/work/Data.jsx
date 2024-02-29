@@ -1,12 +1,7 @@
 import work1 from "../../assets/gym.png";
 import work2 from "../../assets/work2.png";
-import work3 from "../../assets/meta2.png";
-import work4 from "../../assets/search.png";
-import work5 from "../../assets/todo.png";
-import work6 from "../../assets/jobit.png";
-import work7 from "../../assets/carrent.png";
-import work8 from "../../assets/tripguide.png";
-import work9 from "../../assets/portfolio.png";
+import project3 from "../../assets/project3.png";
+
 
 export const projectData = [
   {
@@ -29,18 +24,18 @@ export const projectData = [
       tech:['Html','CSS','ReactJs','Rest APIs'],
       link:'https://youtube-clone-12.netlify.app/'
     },
-  // {
-  //   id: 3,
-  //   image: work3,
-  //   title: "Meta Website ",
-  //   category: "web",
-  //   description:
-  //     "Build a modern meta website design using React and Tailwind CSS, showcasing the power of these technologies for creating attractive and responsive user interfaces",
-  //     tech:['Tailwand','React'],
-  //     link:'https://meta-website-12.netlify.app/'
+  {
+    id: 3,
+    image: project3,
+    title: "Ecommerce Frontend",
+    category: "web",
+    description:
+      "Build a modern Ecommerce website design using React and Tailwind CSS",
+      tech:['Tailwand','React'],
+      link:'https://ecommerce-two-swart-26.vercel.app/'
 
     
-  //   },
+    },
   //   {
   //     id: 4,
   //     image: work9,
