@@ -1,6 +1,8 @@
 import work1 from "../../assets/gym.png";
 import work2 from "../../assets/work2.png";
 import project3 from "../../assets/project3.png";
+import carrotar from "../../assets/Carrotar.PNG";
+import toDo from "../../assets/to-do.PNG";
 
 
 export const projectData = [
@@ -36,27 +38,27 @@ export const projectData = [
 
     
     },
-  //   {
-  //     id: 4,
-  //     image: work9,
-  //     title: "Portfolio Website",
-  //     category: "design",
-  //     description:
-  //       " Develop a visually captivating portfolio website using React.js and Three.js to showcase projects with immersive 3D graphics and interactive elements.",
-  //       tech:['Tailwand','ReactJs','ThreeJs'],
-  //       link:'https://ikramah-portfolio.netlify.app'
-  //     },
-  // {
-  //   id: 5,
-  //   image: work4,
-  //   title: "Movie Search Website",
-  //   category: "web",
-  //   description:
-  //     "Develop a movie search app with React, integrating the Rapid API for extensive movie data, enabling users to search and explore movie ratings, actors, and directors effortlessly.",
-  //     tech:['Bootstrap','React'],
-  //     link:'https://movie-website-11.netlify.app'
+    {
+      id: 4,
+      image: carrotar,
+      title: "Carrotar Landing Page",
+      category: "design",
+      description:
+        "I have developed this page following a detailed design from Figma.The page features a sleek & modern interface,optimized for user experience & responsiveness.",
+        tech:['Tailwand','ReactJs'],
+        link:'https://carrator-landing-page.vercel.app/'
+      },
+  {
+    id: 5,
+    image: toDo,
+    title: "To DO App",
+    category: "web",
+    description:
+    "Built a ToDo app  Features include task creation, editing, and deletion with a clean, responsive UI. Utilized Context API for efficient state management across components.",
+      tech:['Tailwind Css','React Js','Context'],
+      link:'https://todo-app-xi-bice.vercel.app/'
 
-  //   },
+    },
   // {
   //   id: 6,
   //   image: work5,
