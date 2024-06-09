@@ -3,6 +3,8 @@ import work2 from "../../assets/work2.png";
 import project3 from "../../assets/project3.png";
 import carrotar from "../../assets/Carrotar.PNG";
 import toDo from "../../assets/to-do.PNG";
+import work6 from "../../assets/work6.JPG";
+
 
 
 export const projectData = [
@@ -59,16 +61,16 @@ export const projectData = [
       link:'https://todo-app-xi-bice.vercel.app/'
 
     },
-  // {
-  //   id: 6,
-  //   image: work5,
-  //   title: "Todo App",
-  //   category: "design",
-  //   description:
-  //     "Build a simple Todo app with React, featuring add, delete, and delete all functionality for managing tasks efficiently.",
-  //     tech:['Html','CSS','ReactJs'],
-  //     link:'https://todo-ikramah.netlify.app'
-  //   },
+  {
+    id: 6,
+    image: work6,
+    title: "Coffee Shop",
+    category: "Web",
+    description:
+      "Build a simple Todo app with React, featuring add, delete, and delete all functionality for managing tasks efficiently.",
+      tech:['Tailwind Css','ReactJs','Next js'],
+      link:'https://coffee-store-nextjs-ktg9-git-main-mshafyalis-projects.vercel.app/'
+    },
   //   {
   //     id: 7,
   //     image: work6,
