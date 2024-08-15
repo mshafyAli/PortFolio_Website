@@ -15,7 +15,7 @@ export const projectData = [
     title: "Academians Uk",
     category: "Web",
     description:
-      "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js ensuring optimal user experience across various devices.",
+      "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js ensuring optimal user experience across various devices.create for Client",
       tech:['Tailwind Css','React Js','Node js','Express js','MySql'],
       link:'https://academians.co.uk/'
     },
