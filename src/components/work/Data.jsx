@@ -5,12 +5,23 @@ import carrotar from "../../assets/Carrotar.PNG";
 import toDo from "../../assets/to-do.PNG";
 import work6 from "../../assets/work6.JPG";
 import academians from "../../assets/academians.JPG"
-
+import Austrailians from "../../assets/Austrailians.JPG"
+import MrAssignment from "../../assets/Mr-assignment.JPG"
 
 
 export const projectData = [
   {
     id: 1,
+    image: MrAssignment,
+    title: "MR-assignment Uk",
+    category: "Web",
+    description:
+      "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js ensuring optimal user experience across various devices.create for Client",
+      tech:['Tailwind Css','React Js','Node js','Express js','Mongodb'],
+      link:'https://mrassignment.uk/'
+    },
+  {
+    id: 2,
     image: academians,
     title: "Academians Uk",
     category: "Web",
@@ -20,7 +31,7 @@ export const projectData = [
       link:'https://academians.co.uk/'
     },
     {
-      id: 2,
+      id: 3,
       image: work6,
       title: "Coffee Shop",
       category: "Web",
@@ -30,7 +41,7 @@ export const projectData = [
         link:'https://coffee-store-nextjs-ktg9-git-main-mshafyalis-projects.vercel.app/'
       },
   {
-    id: 3,
+    id: 4,
     image: work2,
     title: "Youtube Clone",
     category: "web",
@@ -40,7 +51,7 @@ export const projectData = [
       link:'https://youtube-clone-12.netlify.app/'
     },
   {
-    id: 4,
+    id: 5,
     image: project3,
     title: "Ecommerce Frontend",
     category: "web",
@@ -52,7 +63,7 @@ export const projectData = [
     
     },
     {
-      id: 5,
+      id: 6,
       image: carrotar,
       title: "Carrotar Landing Page",
       category: "design",
@@ -61,8 +72,18 @@ export const projectData = [
         tech:['Tailwand','ReactJs'],
         link:'https://carrator-landing-page.vercel.app/'
       },
+      {
+        id: 7,
+        image: Austrailians,
+        title: "Austrailians pvt ltd",
+        category: "Web",
+        description:
+          "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js ensuring optimal user experience across various devices.create for Client",
+          tech:['Tailwand','ReactJs','Node js','Express js',"Mysql"],
+          link:'https://academians.com.au/'
+        },
   {
-    id: 6,
+    id: 8,
     image: toDo,
     title: "To DO App",
     category: "web",
@@ -75,7 +96,7 @@ export const projectData = [
  
     
       {
-        id: 7,
+        id: 9,
         image: work1,
         title: "Mern Auth",
         category: "web",
