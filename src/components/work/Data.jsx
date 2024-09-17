@@ -7,6 +7,7 @@ import work6 from "../../assets/work6.JPG";
 import academians from "../../assets/academians.JPG"
 import Austrailians from "../../assets/Austrailians.JPG"
 import MrAssignment from "../../assets/Mr-assignment.JPG"
+import ebook from "../../assets/ebook.JPG"
 
 
 export const projectData = [
@@ -50,8 +51,18 @@ export const projectData = [
       tech:['Html','CSS','ReactJs','Rest APIs'],
       link:'https://youtube-clone-12.netlify.app/'
     },
+    {
+      id: 5,
+      image: ebook,
+      title: "Ebook",
+      category: "Web",
+      description:
+        "Design a responsive mobile website using HTML,Tailwind Css, React js  ensuring optimal user experience across various devices.create for Client ",
+        tech:['Tailwind Css','React Js'],
+        link:'https://test.encoders.com.pk/lp-3'
+      },
   {
-    id: 5,
+    id: 6,
     image: project3,
     title: "Ecommerce Frontend",
     category: "web",
@@ -63,7 +74,7 @@ export const projectData = [
     
     },
     {
-      id: 6,
+      id: 7,
       image: carrotar,
       title: "Carrotar Landing Page",
       category: "design",
@@ -73,7 +84,7 @@ export const projectData = [
         link:'https://carrator-landing-page.vercel.app/'
       },
       {
-        id: 7,
+        id: 8,
         image: Austrailians,
         title: "Austrailians pvt ltd",
         category: "Web",
@@ -83,7 +94,7 @@ export const projectData = [
           link:'https://academians.com.au/'
         },
   {
-    id: 8,
+    id: 9,
     image: toDo,
     title: "To DO App",
     category: "web",
@@ -96,7 +107,7 @@ export const projectData = [
  
     
       {
-        id: 9,
+        id: 10,
         image: work1,
         title: "Mern Auth",
         category: "web",
