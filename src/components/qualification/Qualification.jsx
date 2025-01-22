@@ -58,7 +58,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">BSCS</h3>
                 <span className="qualification__subtitle">Sindh Madressatul Islam(SMIU)</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2025
                 </div>
                 </div>
 
@@ -138,12 +138,14 @@ const Qualification = () => {
               }>
              
              <div className="qualification__data">
+
+              
                
                <div style={{border:"var(--border)"}}>
-               <h3 className="qualification__title">Mern Stack(1 Months)</h3>
-               <span className="qualification__subtitle">Intern at CodeSoft</span>
+               <h3 className="qualification__title">Mern Stack Developer</h3>
+               <span className="qualification__subtitle">Encoders (karachi)</span>
                <div className="qualification__calendar">
-                 <i className="uil uil-calendar-alt"></i> Oct-2023 to Nov-2023
+                 <i className="uil uil-calendar-alt"></i>July 2024 to Present
                </div>
                </div>
 
@@ -154,6 +156,7 @@ const Qualification = () => {
                
              </div>
              
+             
              <div className="qualification__data">
                
                <div style={{border:"var(--border)"}}></div>
@@ -163,16 +166,35 @@ const Qualification = () => {
                <span className="qualification__line"></span>
              </div>
  
-               {/* <div style={{border:"var(--border)"}}>
-               <h3 className="qualification__title">MERN</h3>
-               <span className="qualification__subtitle">Freelance</span>
+               <div style={{border:"var(--border)"}}>
+               <h3 className="qualification__title">Frontend Developer</h3>
+               <span className="qualification__subtitle">Carrotar (Karachi) </span>
                <div className="qualification__calendar">
-                 <i className="uil uil-calendar-alt"></i> 2022 - Present
+                 <i className="uil uil-calendar-alt"></i> March 2024 to June 2024
                </div>
-               </div>  */}
+               </div> 
 
               
 
+             </div>
+
+             <div className="qualification__data">
+
+              
+               
+               <div style={{border:"var(--border)"}}>
+               <h3 className="qualification__title">Mern Stack Developer</h3>
+               <span className="qualification__subtitle">Intern at CodeSoft(Remote)</span>
+               <div className="qualification__calendar">
+                 <i className="uil uil-calendar-alt"></i>Dec-23 to feb-2024
+               </div>
+               </div>
+
+               <div style={{border:"var(--border)"}}>
+               <span className="qualification__rounder"></span>
+               <span className="qualification__line"></span>
+             </div>
+               
              </div>
 
           
