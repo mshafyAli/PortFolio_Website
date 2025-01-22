@@ -9,9 +9,6 @@ import Bpw from "../../assets/bpw.PNG";
 import Rph from "../../assets/rph.PNG";
 import ebook from "../../assets/ebook.JPG";
 import clickCease from "../../assets/clickecease.PNG";
-import Austrailians from "../../assets/Austrailians.JPG"
-
-
 
 export const projectData = [
   {
@@ -81,23 +78,9 @@ export const projectData = [
     tech: ["Tailwind Css", "React Js"],
     link: "https://amazonepublishing.com/",
   },
+
   {
     id: 7,
-      tech:['Html','CSS','ReactJs','Rest APIs'],
-      link:'https://youtube-clone-12.netlify.app/'
-    },
-    {
-      id: 5,
-      image: ebook,
-      title: "Ebook",
-      category: "Web",
-      description:
-        "Design a responsive mobile website using HTML,Tailwind Css, React js  ensuring optimal user experience across various devices.create for Client ",
-        tech:['Tailwind Css','React Js'],
-        link:'https://test.encoders.com.pk/lp-3'
-      },
-  {
-    id: 6,
     image: project3,
     title: "Ecommerce Frontend",
     category: "web",
@@ -130,33 +113,6 @@ export const projectData = [
 
   {
     id: 10,
-      tech:['Tailwand','React'],
-      link:'https://ecommerce-two-swart-26.vercel.app/'
-
-    
-    },
-    {
-      id: 7,
-      image: carrotar,
-      title: "Carrotar Landing Page",
-      category: "design",
-      description:
-        "I have developed this page following a detailed design from Figma.The page features a sleek & modern interface,optimized for user experience & responsiveness.",
-        tech:['Tailwand','ReactJs'],
-        link:'https://carrator-landing-page.vercel.app/'
-      },
-      {
-        id: 8,
-        image: Austrailians,
-        title: "Austrailians pvt ltd",
-        category: "Web",
-        description:
-          "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js ensuring optimal user experience across various devices.create for Client",
-          tech:['Tailwand','ReactJs','Node js','Express js',"Mysql"],
-          link:'https://academians.com.au/'
-        },
-  {
-    id: 9,
     image: toDo,
     title: "To DO App",
     category: "web",
@@ -165,7 +121,6 @@ export const projectData = [
     tech: ["Tailwind Css", "React Js", "Context"],
     link: "https://todo-app-xi-bice.vercel.app/",
   },
-
 
   {
     id: 11,
@@ -177,40 +132,18 @@ export const projectData = [
     tech: ["Tailwand", "ReactJs", "Node Js", "Express", "MongoDb"],
     link: "https://mern-auth-5pnp.onrender.com/",
   },
-   
- 
-    
-      {
-        id: 10,
-        image: work1,
-        title: "Mern Auth",
-        category: "web",
-        description:
-          "This is a fullstack Web. It includes authentication features that allow users to sign up, log in, and log out, and provides access to protected routes only for authenticated users.",
-        tech: ['Tailwand',"ReactJs",'Node Js','Express','MongoDb'],
-        link:'https://mern-auth-5pnp.onrender.com/'
-      },
-  //     {
-  //       id: 8,
-  //       image: work7,
-  //       title: "Resturant Landing Page",
-  //       category: "design",
-  //       description:
-  //         "Build a responsive resturant website using HTML, CSS, Bootstrap, and JavaScript, ensuring optimal user experience across various devices",
-  //         tech:['Html','CSS','Bootstrap','Javascript'],
-  //         link:'https://resturant-website-ikramah.netlify.app/'
-  //       },
-        // {
-        //   id: 9,
-        //   image: work8,
-        //   title: "Marketing Landing Page",
-        //   category: "design",
-        //   description:
-        //     "Create a responsive Marketing website using HTML, CSS, Bootstrap, and JavaScript, ensuring optimal user experience across various devices.",
-        //     tech:['Html','CSS','Bootstrap','Javascript'],
-        //     link:'https://marketing-website-ikramah.netlify.app/'
-        //   },
+  {
+    id: 12,
+    image: carrotar,
+    title: "Carrotar Landing Page",
+    category: "design",
+    description:
+      "I have developed this page following a detailed design from Figma.The page features a sleek & modern interface,optimized for user experience & responsiveness.",
+    tech: ["Tailwand", "ReactJs"],
+    link: "https://carrator-landing-page.vercel.app/",
+  },
 
+ 
 ];
 
 export const projectsNav = [
