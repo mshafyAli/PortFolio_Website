@@ -9,10 +9,9 @@ import Bpw from "../../assets/bpw.PNG";
 import Rph from "../../assets/rph.PNG";
 import ebook from "../../assets/ebook.JPG";
 import clickCease from "../../assets/clickecease.PNG";
-import academians from "../../assets/academians.JPG"
 import Austrailians from "../../assets/Austrailians.JPG"
-import MrAssignment from "../../assets/Mr-assignment.JPG"
-import ebook from "../../assets/ebook.JPG"
+
+
 
 export const projectData = [
   {
