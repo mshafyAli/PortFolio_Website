@@ -9,6 +9,8 @@ import Bpw from "../../assets/bpw.PNG";
 import Rph from "../../assets/rph.PNG";
 import ebook from "../../assets/ebook.JPG";
 import clickCease from "../../assets/clickecease.PNG";
+import Sj from "../../assets/Sj.PNG";
+
 
 export const projectData = [
   {
@@ -17,7 +19,7 @@ export const projectData = [
     title: "Research Publishing House",
     category: "Web",
     description:
-      "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js and php ensuring optimal user experience across various devices.create for Client",
+      "A responsive website built with React, Tailwind CSS, Node.js, Express.js, PHP, and MySQL/MongoDB for seamless user experience across devices.",
     tech: [
       "Tailwind Css",
       "React Js",
@@ -30,6 +32,23 @@ export const projectData = [
   },
   {
     id: 2,
+    image: Sj,
+    title: "Scopus Publishing House",
+    category: "Web",
+    description:
+      "A mobile-friendly website developed using React, Tailwind CSS, Node.js, Express.js, PHP, and MySQL/MongoDB to ensure optimal performance.",
+    tech: [
+      "Tailwind Css",
+      "React Js",
+      "Node js",
+      "Express js",
+      "Mongodb",
+      "MySql",
+    ],
+    link: "https://scopusjournalpublication.org/",
+  },
+  {
+    id: 3,
     image: Bpw,
     title: "BPW",
     category: "Web",
@@ -39,7 +58,7 @@ export const projectData = [
     link: "https://academians.com.au/",
   },
   {
-    id: 3,
+    id: 4,
     image: academians,
     title: "Academians Uk",
     category: "Web",
@@ -49,7 +68,7 @@ export const projectData = [
     link: "https://academians.co.uk/",
   },
   {
-    id: 4,
+    id: 5,
     image: work6,
     title: "Coffee Shop",
     category: "Web",
@@ -59,7 +78,7 @@ export const projectData = [
     link: "https://coffee-store-nextjs-ktg9-git-main-mshafyalis-projects.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: work2,
     title: "Youtube Clone",
     category: "web",
@@ -69,7 +88,7 @@ export const projectData = [
     link: "https://youtube-clone-12.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: ebook,
     title: "Ebook",
     category: "Web",
@@ -80,7 +99,7 @@ export const projectData = [
   },
 
   {
-    id: 7,
+    id: 8,
     image: project3,
     title: "Ecommerce Frontend",
     category: "web",
@@ -91,7 +110,7 @@ export const projectData = [
     link: "https://ecommerce-two-swart-26.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     image: carrotar,
     title: "Carrotar Landing Page",
     category: "design",
@@ -101,7 +120,7 @@ export const projectData = [
     link: "https://carrator-landing-page.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     image: clickCease,
     title: "ClickCease Fraud Protection ",
     category: "design",
@@ -112,7 +131,7 @@ export const projectData = [
   },
 
   {
-    id: 10,
+    id: 11,
     image: toDo,
     title: "To DO App",
     category: "web",
@@ -123,7 +142,7 @@ export const projectData = [
   },
 
   {
-    id: 11,
+    id: 12,
     image: work1,
     title: "Mern Auth",
     category: "web",
@@ -133,7 +152,7 @@ export const projectData = [
     link: "https://mern-auth-5pnp.onrender.com/",
   },
   {
-    id: 12,
+    id: 13,
     image: carrotar,
     title: "Carrotar Landing Page",
     category: "design",
