@@ -28,7 +28,7 @@ export const projectData = [
       "Mongodb",
       "MySql",
     ],
-    link: "https://researchpublishinghouse.com/home/",
+    link: "#",
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const projectData = [
       "Mongodb",
       "MySql",
     ],
-    link: "https://scopusjournalpublication.org/",
+    link: "#",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ export const projectData = [
     description:
       "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js ensuring optimal user experience across various devices.create for Client",
     tech: ["Tailwand", "ReactJs", "Node js", "Express js", "Mysql"],
-    link: "https://academians.com.au/",
+    link: "#",
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ export const projectData = [
     description:
       "Design a responsive mobile website using HTML,Tailwind Css, React js Node Js Express Js ensuring optimal user experience across various devices.create for Client",
     tech: ["Tailwind Css", "React Js", "Node js", "Express js", "MySql"],
-    link: "https://academians.co.uk/",
+    link: "#",
   },
   {
     id: 5,
@@ -85,7 +85,7 @@ export const projectData = [
     description:
       "YouTube clone using React, creating a user-friendly interface for a seamless viewing experience",
     tech: ["Html", "CSS", "ReactJs", "Rest APIs"],
-    link: "https://youtube-clone-12.netlify.app/",
+    link: "#",
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ export const projectData = [
     description:
       "Design a responsive mobile website using HTML,Tailwind Css, React js  ensuring optimal user experience across various devices.create for Client ",
     tech: ["Tailwind Css", "React Js"],
-    link: "https://amazonepublishing.com/",
+    link: "#",
   },
 
   {
