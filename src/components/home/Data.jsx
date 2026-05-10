@@ -3,23 +3,20 @@ import React from "react";
 const Data = () => {
   return (
     <div className="home__data">
-      <h3 className="hello__head">Hello! My name is</h3>
-      <h1 className='home__title'>
-        Shafy Ali.
-       
-      </h1>
-      <h1 className='home__title-2'>I love exploring new things!
-</h1>
-<h3 className="home__subtitle">Mern Stack Developer</h3>
+      <h1 className="home__title">Shafy Ali.</h1>
+
+      <h3 className="home__subtitle">
+        Full-Stack Engineer | Building Scalable Backend Systems & Web Portals.
+      </h3>
 
       <p className="home__description">
-      I have a strong foundation in HTML, CSS,Tailwand and JavaScript, as well as experience with modern frameworks such as React. I have a passion for creating intuitive and responsive user interfaces that enhance the user experience. I am excited to bring my skills and experience to a new opportunity and continue learning and growing as a developer."
-
-
-
+        I specialize in architecting production-ready solutions using NestJS,
+        Next.js, and Node.js. From implementing secure Stripe payment systems
+        and Webhooks to managing scalable deployments on AWS, I focus on
+        building robust architectures that solve real-world problems.
       </p>
       <a href="#contact" className="button button--flex">
-        Say Hello
+        Let's Connect
         <svg
           class="button__icon"
           xmlns="http://www.w3.org/2000/svg"

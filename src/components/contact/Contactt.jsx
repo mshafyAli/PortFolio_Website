@@ -1,70 +1,190 @@
-import React from "react";
-import './contact.css'
+// import React from "react";
+// import "./contact.css";
+// const Contactt = () => {
+//   return (
+//     <section className="contact section" id="contact">
+//       <h2 className="section__title">Get in touch</h2>
+//       <span className="section__subtitle">Contact Me</span>
+
+//       <div className="contact__container container grid">
+//         <div className="contact__content">
+//           <h3 className="contact__title">Talk to me</h3>
+
+//           <div className="contact__info">
+//             <div className="contact__card">
+//               <i className="bx bx-mail-send contact__card-icon"></i>
+
+//               <h3 className="contact__card-title">Email</h3>
+//               <span className="contact__card-data">shafyali433@gmail.com</span>
+
+//               <a
+//                 href="mailto:ikramahahmed177@gmail.com"
+//                 className="contact__button"
+//               >
+//                 Write me{" "}
+//                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+//               </a>
+//             </div>
+
+//             <div className="contact__card">
+//               <i className="bx bxl-whatsapp contact__card-icon"></i>
+
+//               <h3 className="contact__card-title">Whatsapp</h3>
+//               <span className="contact__card-data">+92 3151175142</span>
+
+//               <a
+//                 href="https://api.whatsapp.com/send?phone=923151175142"
+//                 className="contact__button"
+//               >
+//                 Write me{" "}
+//                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+//               </a>
+//             </div>
+
+//             <div className="contact__card">
+//               <i className="bx bx-phone contact__card-icon"></i>
+
+//               <h3 className="contact__card-title">Phone</h3>
+//               <span className="contact__card-data">+92 3151175142</span>
+
+//               <a href="" className="contact__button">
+//                 Call me{" "}
+//                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+//               </a>
+//             </div>
+//           </div>
+//         </div>
+//         {/*             */}
+//         <div className="contact__content">
+//           <h3 className="contact__title">write me your project</h3>
+//           <form className="contact__form">
+//             <div className="contact__form-div">
+//               <label className="contact__form-tag">Name</label>
+//               <input
+//                 type="text"
+//                 name="name"
+//                 className="contact__form-input"
+//                 placeholder="insert your name"
+//               />
+//             </div>
+
+//             <div className="contact__form-div">
+//               <label className="contact__form-tag">Mail</label>
+//               <input
+//                 type="email"
+//                 name="email"
+//                 className="contact__form-input"
+//                 placeholder="insert your email"
+//               />
+//             </div>
+
+//             <div className="contact__form-div contact__form-area">
+//               <label className="contact__form-tag">Project</label>
+//               <textarea
+//                 name="project"
+//                 cols="30"
+//                 rows="10"
+//                 className="contact__form-input"
+//                 placeholder="Write your project"
+//               ></textarea>
+//             </div>
+
+//             <a className="button button--flex submit-btn ">Send message</a>
+//           </form>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Contactt;
+
+
+
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "./contact.css";
+
 const Contactt = () => {
+  const form = useRef();
 
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+    // Debugging ke liye console log (aap check kar sakte hain ke data ja raha hai ya nahi)
+    console.log("Sending email...");
 
-  
+    emailjs
+      .sendForm(
+        "service_cxr7dav", // Service ID
+        "template_5i4ofha", // Template ID
+        form.current,
+        "fcvvLpCmpUtN12cOd" // Public Key
+      )
+      .then(
+        (result) => {
+          console.log("SUCCESS!", result.text);
+          alert("Message sent successfully!");
+          e.target.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          alert("Failed to send message, please try again.");
+        }
+      );
+  };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact Me</span>
 
       <div className="contact__container container grid">
-
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
 
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
-
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">shafyali433@gmail.com</span>
-
-              <a href="mailto:ikramahahmed177@gmail.com" className="contact__button">
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              <a href="mailto:shafyali433@gmail.com" className="contact__button">
+                Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
-
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+92 3151175142</span>
-
               <a href="https://api.whatsapp.com/send?phone=923151175142" className="contact__button">
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
               <i className="bx bx-phone contact__card-icon"></i>
-
               <h3 className="contact__card-title">Phone</h3>
               <span className="contact__card-data">+92 3151175142</span>
-
-              <a href="" className="contact__button">
-                Call me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              <a href="tel:+923151175142" className="contact__button">
+                Call me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
           </div>
         </div>
-{/*             */}
+
         <div className="contact__content">
           <h3 className="contact__title">write me your project</h3>
-          <form className="contact__form">
-
+          {/* Design integrity ke liye form onSubmit use kiya hai */}
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
                 type="text"
-                name="name"
+                name="user_name" // Ensure your EmailJS template uses {{user_name}}
                 className="contact__form-input"
                 placeholder="insert your name"
+                required
               />
             </div>
 
@@ -72,31 +192,31 @@ const Contactt = () => {
               <label className="contact__form-tag">Mail</label>
               <input
                 type="email"
-                name="email"
+                name="user_email" // Ensure your EmailJS template uses {{user_email}}
                 className="contact__form-input"
                 placeholder="insert your email"
+                required
               />
             </div>
 
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Project</label>
               <textarea
-                name="project"
+                name="message" // Ensure your EmailJS template uses {{message}}
                 cols="30"
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your project"
+                required
               ></textarea>
             </div>
 
-            <a className="button button--flex submit-btn ">
-        Send message
-      
-      </a>
-
+            {/* Design ko restore karne ke liye button with original classes */}
+            <button type="submit" className="button button--flex submit-btn">
+              Send message
+            </button>
           </form>
         </div>
-
       </div>
     </section>
   );

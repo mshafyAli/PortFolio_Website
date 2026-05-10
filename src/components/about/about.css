@@ -70,9 +70,10 @@ left: 1rem;
   color: var(--cyan);
 }
 .about__description {
-  padding: 0 4rem 0 0;
+  padding: 0 2rem 0 0;
   margin-bottom: var(--mb-2-5);
   line-height: 1.5rem;
+  /* border: 2px solid white; */
 }
 
 /* ======= BREAKPOINTS ===================*/

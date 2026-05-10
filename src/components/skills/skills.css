@@ -3,7 +3,6 @@
   column-gap: 1rem;
   justify-content: center;
   border: var(--border);
-
 }
 
 .skills__content {
@@ -12,8 +11,7 @@
   padding: 2rem 4rem;
   /* border-radius: 1.25rem; */
   /* border: var(--border); */
-  transition: .4s;
-
+  transition: 0.4s;
 }
 .skills__content:hover {
   transform: translate(0, -10px);
@@ -26,45 +24,51 @@
   text-align: center;
   margin-bottom: var(--mb-1-5);
   border: var(--border);
-
 }
-.skills__box{
-    display: flex;
-Justify-content: center;
-column-gap: 2.5rem;
-border: var(--border);
-
+.skills__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+  border: var(--border);
 }
 
-
-
-.skills__group{
-    display: grid; 
-align-items: start; 
-justify-content: start;
-row-gap: 1rem; 
-border: var(--border);
-
+.skills__group {
+  display: grid;
+  align-items: start;
+  justify-content: start;
+  row-gap: 1rem;
+  border: var(--border);
 }
 
-.skills__data{
-    display: flex;
-    column-gap: 0.5rem;
+.skills__data {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
 }
-.skills .bx-badge-check{
-    font-size: 1rem;
-color: var(--title-color); 
+
+.skills__titles {
+  display: flex;
+  align-items: baseline; /* Text ko baseline par align karne ke liye */
+  column-gap: 0.5rem; /* Name aur Level ke darmiyan gap */
+  flex-wrap: wrap; /* Agar space kam ho toh break ho jaye */
 }
-.skills__name{
-    font-size: var(--normal-font-size);
-font-weight: var(--font-medium);
-line-height: 18px;
-color: var(--light);
+
+.skills .bx-badge-check {
+  font-size: 1rem;
+  color: var(--title-color);
 }
-.skills__level{
-    font-size: var(--smaller-font-size);
-    font-family: var(--mono-font);
-    color: var(--cyan);
+
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--light);
+}
+
+.skills__level {
+  font-size: var(--smaller-font-size);
+  font-family: var(--mono-font);
+  color: var(--cyan);
+  /* Yahan se line-height hata den taake spacing sahi ho */
 }
 
 /* ======= BREAKPOINTS ===================*/
@@ -72,51 +76,42 @@ color: var(--light);
 /* FOR LARGE DEVICES */
 
 @media screen and (max-width: 992px) {
-    .skills__container{
-        grid-template-columns: max-content;
-        /* grid-template-columns: 1fr; */
-        row-gap: 2rem;
-    }
-    .skills__box{
-
-  justify-content: start;
-
-  
-  }
-      }
-  /* FOR medium DEVICES */
-  
-  @media screen and (max-width: 768px) {
-  .skills__container{
+  .skills__container {
     grid-template-columns: max-content;
-
+    /* grid-template-columns: 1fr; */
+    row-gap: 2rem;
   }
-  .skills__content{
+  .skills__box {
+    justify-content: start;
+  }
+}
+/* FOR medium DEVICES */
+
+@media screen and (max-width: 768px) {
+  .skills__container {
+    grid-template-columns: max-content;
+  }
+  .skills__content {
     /* padding: 1.5rem; */
   }
-    
-  }
-  
-  @media screen and (max-width: 576px) {
-  }
-  /* FOR small DEVICES */
-  @media screen and (max-width: 440px) {
-    .skills__content {
-      padding: 2rem 2rem;
+}
 
-    }
+@media screen and (max-width: 576px) {
+}
+/* FOR small DEVICES */
+@media screen and (max-width: 440px) {
+  .skills__content {
+    padding: 2rem 2rem;
   }
-  @media screen and (max-width: 360px) {
-    .skills__box{
-        column-gap: 1.25rem;
-    }
-    .skills__name{
-        font-size: var(--small-font-size);
-    }
-    .skills__content {
-      padding: 2rem 1rem;
-
-    }
-  
-    }
-  
+}
+@media screen and (max-width: 360px) {
+  .skills__box {
+    column-gap: 1.25rem;
+  }
+  .skills__name {
+    font-size: var(--small-font-size);
+  }
+  .skills__content {
+    padding: 2rem 1rem;
+  }
+}
