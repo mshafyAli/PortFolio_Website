@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import github from '../../assets/github.png'
-import linkdin from '../../assets/linkdin.png'
-import watsapp from '../../assets/watsapp.png'
+import github from "../../assets/github.png";
+import linkdin from "../../assets/linkdin.png";
+import watsapp from "../../assets/watsapp.png";
 
 const Footer = () => {
   return (
@@ -29,18 +29,38 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social ">
-        <a href="https://github.com/mshafyAli" className="social__home-icon" target="_blank">
-            <i class="bx bxl-github "><img src={github}   width={30} alt="" /></i>
+          <a
+            href="https://github.com/mshafyAli"
+            className="social__home-icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="bx bxl-github ">
+              <img src={github} width={30} alt="Github"  />
+            </i>
           </a>
 
-          <a href="https://www.linkedin.com/in/shafy-ali-a0627426b/" className="social__home-icon" target="_blank"> 
-            <i class="bx bxl-linkedin"><img src={linkdin}  width={30} alt="" /></i>
-          </a>
-          
-          <a href="https://api.whatsapp.com/send?phone=923151175142" className="social__home-icon" target="_blank">
-            <i class="bx bxl-whatsapp"><img src={watsapp} width={26} alt="" /></i>
+          <a
+            href="https://www.linkedin.com/in/shafyali/"
+            className="social__home-icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="bx bxl-linkedin">
+              <img src={linkdin} width={30} alt="LinkedIn" />
+            </i>
           </a>
 
+          <a
+            href="https://api.whatsapp.com/send?phone=923151175142"
+            className="social__home-icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="bx bxl-whatsapp">
+              <img src={watsapp} width={26} alt="WhatsApp" />
+            </i>
+          </a>
         </div>
         {/* <span className="footer__copy">&#169; Ikramahcoder. All rigths reserved</span> */}
       </div>
